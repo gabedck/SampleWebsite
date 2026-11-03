@@ -1,0 +1,296 @@
+﻿/*Primary Color: 801D8A*/
+/*Anagalous Color: 6C39B3*/
+/*Primary Complementary: BACE29, ~ 180 degrees*/
+/*Anagalous Complementary:FFC641, ~ 130 degrees*/
+
+
+:root {
+    --primarcyColor: #801D8A;
+
+    --anagalousColor: #6C39B3;
+
+    --primarcyComplementary: #BACE29;
+
+    --anagalousComplementary: #FFC641;
+}
+
+html {
+    font-size: 62.5%;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: darkgrey;
+
+    color: black;
+}
+
+body {
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+
+h2, h3 {
+    font-weight: 400;
+
+    line-height: 1.1;
+
+    text-align: center;
+
+    color: var(--primarcyColor);
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+a {
+    font-size: 1.6rem;
+}
+
+h2 a {
+    font-size: inherit;
+}
+
+#WebPage {
+    width: 992px;
+
+    margin-top: 1.5rem;
+
+    margin-bottom: 1.5rem;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+#Banner {
+    background-color: var(--anagalousColor);
+
+    box-shadow: initial;
+
+    border-radius: 12px;
+
+    padding-top: 1rem;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    padding-bottom: 0rem;
+
+    margin-bottom: 1.5rem;
+
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 400;
+
+    font-size: 3rem;
+
+    font-size: 3rem;
+
+    line-height: 1.1;
+
+    text-align: center;
+}
+
+img {
+    height: 140px;
+
+    width: 140px;
+}
+
+img[alt~="Shrug"] {
+    float: right;
+}
+
+img[alt~="SpruceAgain"] {
+    float: right;
+}
+
+    img[alt~="ShrugAgain"] {
+        float: left;
+    }
+
+#Banner nav li {
+    display: inline;
+}
+
+#Banner nav {
+    background-color: var(--anagalousComplementary);
+
+    text-align: center;
+}
+
+#Banner nav a {
+    text-decoration: none;
+
+    margin-left: 1rem;
+
+    margin-right: 1rem;
+
+    margin-bottom: 2rem;
+
+    background-color: var(--anagalousComplementary);
+
+    color: var(--primarcyColor);
+}
+
+#Banner nav a:hover {
+    background-color: var(--anagalousColor);
+
+    color: var(--primarcyComplementary);
+}
+
+nav {
+    border-radius: 5px;
+}
+
+#Wrapper {
+    background-color: grey;
+
+    margin-bottom: 1.5rem;
+
+    display: flex;
+
+    box-shadow: initial;
+
+    border-radius: 12px;
+}
+
+    #Wrapper li a {
+        color: var(--anagalousColor);
+    }
+
+#Wrapper h2 a{
+    color: var(--primarcyColor)
+}
+
+#Wrapper h2{
+    color: var(--anagalousComplementary)
+}
+
+aside li {
+    padding: 1rem;
+
+    margin-left: 32%;
+}
+
+aside {
+    background-color: grey;
+
+    width: 100%;
+
+    border-radius: 12px;
+}
+
+aside h2{
+    padding: 1.5rem;
+
+    align-content: center;
+}
+
+aside li a {
+    text-decoration: none;
+}
+
+#Links {
+    width: 30%;
+}
+
+#Wrapper aside li a:hover{
+    text-decoration: underline;
+
+    color: hotpink; 
+}
+
+#Content {
+    background-color: white;
+
+    width: 100%;
+}
+
+article {
+    padding: 1rem;
+
+    margin-left: 0rem;
+
+    margin-right: 0rem;
+
+    margin-top: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+article h2 a{
+    align-content: center;
+
+    text-decoration: none;
+}
+
+#Wrapper article h2 a:hover{
+    text-decoration: underline;
+
+    color: hotpink;
+}
+
+#Footer {
+    background-color: var(--anagalousColor);
+
+    border-radius: 12px;
+
+    box-shadow: initial;
+
+    padding: 1.5rem;
+
+    text-align: center;
+
+    height: 150px;
+
+    color: darkgrey;
+}
+
+#Form1 {
+    width: 90%
+}
+
+#Banner nav li.dropdown {
+    display: inline-block;
+}
+
+.dropDownMenu {
+    display: none;
+
+    position: absolute;
+
+    background-color: whitesmoke;
+
+    min-width: 100px;
+
+    box-shadow: 5px 5px 15px #333333;
+}
+
+#Banner nav .dropdown .LinkButtonClass {
+    display: block;
+
+    color: black;
+}
+
+.dropdown:hover .dropDownMenu {
+    display: block;
+}
+
+#Banner nav .dropDownMenu .LinkButtonClass:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropButton {
+    background-color: green;
+}

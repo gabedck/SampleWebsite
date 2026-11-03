@@ -1,0 +1,50 @@
+﻿#Calculator {
+    width: 400px;
+
+    border: 1px;
+
+    border-color: black;
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+
+    border-radius: 20px;
+
+    background-color: lightgrey;
+}
+
+#Calculator h2 {
+    align-content: center;
+
+    color: black;
+
+    font-weight: bold;
+
+    font-size: 2rem;
+}
+
+label, output, button{
+    font-size: large;
+}
+
+
+.td1 {
+    width: 50%;
+
+    justify-content: right;
+
+    text-align: right;
+}
+
+.td2 {
+    width: 40%;
+}
+
+.td3 {
+    width: 10%;
+}
+
+.tdLone {
+    text-align: center;
+}

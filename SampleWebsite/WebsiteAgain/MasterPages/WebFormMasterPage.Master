@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebFormMasterPage.Master.cs" Inherits="WebsiteAgain.MasterPages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+
+    <link href="../Styles/Reset.css" rel="stylesheet" />
+
+    <link href="../Styles/Main.css" rel="stylesheet" />
+
+    <link href="../Styles/resume.css" rel="stylesheet" />
+
+    <link href="../Styles/Calculator.css" rel="stylesheet"/>
+
+    <link href="../Styles/hangman.css" rel="stylesheet"/>
+
+     <asp:ContentPlaceHolder ID="Head" runat="server">
+     </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+    <form id="Form1" runat="server">
+
+     <div id="WebPage">
+
+     <header id="Banner">
+
+         <img src="../Images/spruce.jpg" alt="Spruce"/>
+
+         <img src="../Images/shrug.png" alt="Shrug"/>
+
+         <h1>My ITM 325 Web Site</h1>
+
+         <nav>
+
+             <ul>
+                 <li>
+                     <a href="Home.aspx">Home</a>
+                 </li>
+
+                 <li>
+                     <a href="Resume.aspx">R&eacute;sum&eacute;</a>
+                 </li>
+
+                 <li>
+                     <a href="Calculator.aspx">Calculator</a>
+                 </li>
+
+                 <li>
+                     <a href="Hangman.aspx">Hangman</a>
+                 </li>
+
+                 <li class="dropdown">
+                     <a href="#" class="dropButton">Theme</a>
+                     <div class ="dropDownMenu">
+                         <asp:LinkButton ID="LinkButton12px" runat="server" OnClick="LinkButton12px_Click" CssClass="LinkButtonClass">12px</asp:LinkButton>
+
+                         <asp:LinkButton ID="LinkButton14px" runat="server" OnClick="LinkButton14px_Click" CssClass="LinkButtonClass" >14px</asp:LinkButton>
+
+                         <asp:LinkButton ID="LinkButton16px" runat="server" OnClick="LinkButton16px_Click" CssClass="LinkButtonClass" >16px</asp:LinkButton>
+
+                         <asp:LinkButton ID="LinkButton18px" runat="server" OnClick="LinkButton18px_Click" CssClass="LinkButtonClass" >18px</asp:LinkButton>
+
+                         <asp:LinkButton ID="LinkButton20px" runat="server" OnClick="LinkButton20px_Click" CssClass="LinkButtonClass" >20px</asp:LinkButton>
+                     </div>
+                 </li>
+
+             </ul>
+
+         </nav>
+
+     </header>
+
+     <div id="Wrapper">
+
+         <aside id="Links">
+
+             <h2>Side Links</h2>
+
+             <ul>
+
+                 <li>
+                     <a href="#">Link 1</a>
+                 </li>
+
+                 <li>
+                     <a href="#">Link 2</a>
+                 </li>
+
+                 <li>
+                     <a href="#">Link 3</a>
+                 </li>
+
+                 <li>
+                     <a href="#">Link 4</a>
+                 </li>
+
+                 <li>
+                     <a href="#">Link 5</a>
+                 </li>
+
+             </ul>
+
+         </aside>
+
+            <section id="Content">
+                     <asp:ContentPlaceHolder ID="Body" runat="server">
+                     </asp:ContentPlaceHolder>
+            </section>
+
+         </div>
+
+          
+
+     <footer id="Footer">
+
+         <img src="../Images/shrug.png" alt="ShrugAgain"/>
+
+         <img src="../Images/spruce.jpg" alt="SpruceAgain"/>
+
+         Copyright: &copy; Gabriel De Cock 2024
+
+     </footer>
+
+ </div>
+</form>
+</body>
+</html>

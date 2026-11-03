@@ -1,0 +1,63 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2, h3 {
+    font-family:"Noto Serif", sans-serif;
+
+    font-size: 1.55rem;
+}
+
+li{
+    font-family: "PT Sans", sans-serif;
+}
+
+#ContactInfo {
+    padding-right: 1rem;
+    float: right;
+    justify-content: right;
+}
+
+#Education {
+    padding-left: 1rem;
+    float: left;
+    justify-content: left;
+}
+
+#Experience {
+    padding: 1rem;
+}
+
+    #Experience p {
+        text-align: center;
+    }
+
+    #Experience li {
+        font-size: 1.4rem;
+        text-align: center;
+        list-style-position: inside;
+        list-style-type: circle;
+    }
+
+#Skills {
+    padding: 1rem;
+}
+
+    #Skills li {
+        font-size: 1.4rem;
+        text-align: center;
+        list-style-position: inside;
+        list-style-type: circle;
+    }
+
+#Name {
+    padding: 1rem;
+}
+
+#OverflowFix {
+    overflow: hidden;
+}
+
+#Content {
+    margin: 1rem 0rem;
+}

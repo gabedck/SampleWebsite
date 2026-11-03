@@ -1,0 +1,19 @@
+﻿#SacredWord {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+#WrongCount {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+#centered {
+    text-align: center;
+}
+
+#keyboard {
+    text-align: center;
+}
